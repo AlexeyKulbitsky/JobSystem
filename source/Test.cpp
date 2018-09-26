@@ -45,7 +45,7 @@ void TestJobs()
 
 	// Parallel
     sh::jobs::JobSheduler::getInstance().Init();
-    const size_t steps = 1000;
+    const size_t steps = 10;
     double time = 0.0;
     for (size_t i = 0; i < steps; ++i)
     {
